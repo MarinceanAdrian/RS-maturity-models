@@ -1,0 +1,26 @@
+.container {
+    grid-area: 'b';
+}
+
+.social {
+    margin-top: 1rem;
+}
+
+.social svg {
+    font-size: 2.8rem;
+    color: var(--mainBlue);
+    border: 1px solid #D1D3DC;
+    padding: .50rem;
+    border-radius: .60rem;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+
+.social svg:not(:first-child) {
+    margin-left: 2rem;
+}
+
+.social svg:hover {
+    background: var(--mainBlue);
+    color: white;
+}

@@ -1,0 +1,16 @@
+.container {
+ width: 55rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: .3rem;
+}
+
+.section {
+  margin-bottom: 1rem;
+  color: #ADB0C0;
+}
+

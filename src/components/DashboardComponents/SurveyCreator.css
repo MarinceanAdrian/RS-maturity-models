@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+  height: 100%;
+  /* SurveyJS Creator V2 */
+  --primary: #375bd2;
+  --primary-light: rgba(26, 183, 250, 0.1);
+  --secondary-light: #d7def0;
+  --foreground: #3f4254;
+  --primary-foreground: #ffffff;
+  --secondary: #375bd2;
+  --background: #fff;
+  --background-dim-light: #fff;
+  --secondary-back-light: #d8def0;
+}
+
+/* body #creatorElement {
+    --secondary: #D7DEF0;
+  } */
+
+#scrollableDiv-designer > .svc-flex-column {
+  background: #4058a7;
+}
+
+/* make the toolbox icons white */
+.svc-flex-column .svc-toolbox__item-container .sv-svg-icon use {
+  fill: white;
+  cursor: pointer;
+}
+
+/* make the toolbox label white */
+div.svc-flex-column span.svc-toolbox__item-title {
+  color: white;
+  cursor: pointer;
+}
+
+/* Align the image and the title - the header flex container*/
+.svc-tab-designer .sd-container-modern .sd-container-modern__title {
+  gap: 1rem;
+  align-items: flex-end;
+  /* comment the below line in order to see how the image gets displayed to the right */
+  flex-direction: column-reverse;
+}
+
+/* remove padding from the the header flex container */
+.sd-title.sd-container-modern__title {
+  padding: 0 0 2rem;
+}
+
+/* Restrict the image's dimensions to 20rem */
+.sd-title.sd-container-modern__title .svc-logo-image img {
+  object-fit: cover;
+  width: 20rem;
+  height: 20rem;
+}
+
+/* Title child flex container */
+.sd-title.sd-container-modern__title .sd-header__text {
+  flex: 2;
+}
+
+.sd-title.sd-container-modern__title .sd-header__text h3 {
+  text-align: center;
+}
+
+/* Image child flex container */
+.sd-title.sd-container-modern__title .svc-logo-image {
+  flex: 1;
+  align-self: center;
+}
+
+/* PREVIEW PAGE */
+
+.sd-root-modern:not(.svc-tab-designer) .sd-container-modern__title {
+  /* border: 2px solid red; */
+  flex-direction: column-reverse;
+  max-width: 640px;
+  width: 85vw;
+  margin: 0 auto;
+}
+
+.sd-header__text {
+  flex: 2;
+  align-self: flex-start;
+  padding-left: 2.2rem;
+}
+
+.sd-title.sd-container-modern__title .sd-logo__image {
+  /* width: 100%; */
+  height: 100%;
+  width: 35rem;
+  flex: 1;
+}
+
+/* Custom for Survey Creator Page */
+.survey-creator__header-section {
+  display: flex;
+  align-items: center;
+  gap: 1.3rem;
+  padding: 1rem;
+  padding-left: 1.2rem;
+}
+
+.survey-creator__header-section h1 {
+  color: #57596A;
+  letter-spacing: 1px;
+}
+
+#scrollableDiv-templates3 {
+  display: auto !important;
+}

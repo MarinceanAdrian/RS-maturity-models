@@ -1,0 +1,9 @@
+.distribution-card {
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: .55rem;
+    padding: 2.1rem;
+    color: #3A3A3A;
+    width: 100%;
+    align-self: baseline;
+}

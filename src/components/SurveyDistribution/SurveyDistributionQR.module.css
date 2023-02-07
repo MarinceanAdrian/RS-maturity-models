@@ -1,0 +1,29 @@
+.container {
+  grid-area: "c";
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.container div {
+  display: grid;
+  place-content: center;
+  padding: 2.5rem 3rem;
+}
+
+.container button {
+    color: var(--mainBlue);
+    background-color: transparent;
+    border: 1px solid #D1D3DC;
+    font-weight: bold;
+
+}
+
+.qr-container {
+  margin-top: 2rem;
+  height: auto;
+  width: fit-content;
+  text-align: center;
+  display: grid;
+  place-content: center;
+}
+

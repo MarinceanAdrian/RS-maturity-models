@@ -1,0 +1,50 @@
+.survey__footer {
+  padding: 0.2rem 0.7rem 0.6rem;
+  color: #767986;
+}
+
+.survey__footer p {
+  margin-bottom: .5rem;
+}
+
+.footer-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.survey__footer svg {
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.overlay {
+  color: white;
+  z-index: 2;
+}
+
+.survey__footer--title {
+  color: #767986;
+}
+
+.highlight-text {
+  color: var(--mainBlue);
+  font-weight: bold;
+  padding: 0.5rem;
+}
+
+.footer-actions span {
+  padding: 0.4rem 1.7rem;
+  border-radius: var(--radius);
+  cursor: pointer;
+}
+
+.survey__header--draft {
+  background: #cacdd7;
+  color: #6a6d7d;
+}
+
+.survey__header--public {
+  background: #e3e8f9;
+  color: #5775da;
+}

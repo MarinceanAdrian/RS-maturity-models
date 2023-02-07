@@ -1,0 +1,77 @@
+#container .sd-root-modern .sd-title.sd-container-modern__title {
+  flex-direction: column;
+  flex-grow: 0;
+  box-shadow: 0px 2px 0px var(--mainBlue);
+  color: var(--mainBlue);
+}
+#container .sd-root-modern .sd-title.sd-container-modern__title .sd-title {
+  color: var(--mainBlue);
+}
+
+#container .sd-root-modern .sd-body.sd-body--static .sv-action__content .sd-btn {
+  background-color: var(--mainBlue);
+  color: white;
+}
+
+#container .sd-root-modern .sd-body.sd-body--static .sv-action__content .sd-btn:hover {
+  box-shadow: 0 0 0 2px var(--mainBlue);
+  color: var(--mainBlue);
+  background-color: white;
+}
+
+#container .sd-item__control:focus + .sd-item__decorator {
+  background-color: var(--mainBlue) !important;
+}
+#container .sd-item--checked .sd-item__decorator {
+  background-color: var(--mainBlue) !important;
+}
+
+#container .sd-item--allowhover .sd-selectbase__label:hover .sd-item__decorator {
+  background-color: white;
+  box-shadow: 0 0 0 2px var(--mainBlue);
+  outline: none;
+}
+
+#container .sd-item__control:focus + .sd-item__decorator {
+  box-shadow: 0 0 0 2px var(--mainBlue);
+  outline: none;
+  color: white;
+}
+
+#container
+  .sd-checkbox--checked
+  .sd-checkbox__control:focus
+  + .sd-checkbox__decorator
+  .sd-checkbox__svg
+  use {
+  fill: white;
+}
+
+#container .sd-question__content .sd-input:focus,
+.sd-input.sd-dropdown:focus-within {
+  box-shadow: 0 0 0 2px var(--mainBlue), inset 0px 1px 2px var(--border-inside, rgba(0, 0, 0, 0.16));
+}
+
+.sv-list__item.sv-list__item--selected.sv-list__item--focused .sv-list__item-body,
+.sv-list__item.sv-list__item--selected:hover .sv-list__item-body,
+li:focus .sv-list__item.sv-list__item--selected .sv-list__item-body {
+  background-color: var(--mainBlue);
+  color: white;
+}
+
+.sd-list__item--selected.sd-list__item--selected .sd-list__item-body {
+  background-color: var(--dsActiveFolderBg, rgba(25, 179, 148, 0.1));
+  color: var(--foreground, #161616);
+}
+
+.sd-radio--checked .sd-radio__control:focus + .sd-radio__decorator:after {
+  background-color: white;
+}
+
+.sd-item__control:focus + .sd-item__decorator,
+.sd-item--allowhover .sd-selectbase__label:hover .sd-item__decorator {
+  box-shadow: 0 0 0 2px var(--mainBlue);
+  outline: none;
+}
+
+/* .sd-item--allowhover .sd-selectbase__label:hover .sd-item__decorator */

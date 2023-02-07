@@ -1,0 +1,24 @@
+.survey {
+  background: var(--dsGrayBg);
+  width: 65vw;
+  max-width: 16rem;
+  border-radius: 1rem;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s linear;
+  position: relative;
+  overflow: hidden;
+}
+
+
+@media (width > 580px) {
+  .survey:hover {
+    transform: scale(1.025);
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.4);
+  }
+}
+
+
+
+
+
+

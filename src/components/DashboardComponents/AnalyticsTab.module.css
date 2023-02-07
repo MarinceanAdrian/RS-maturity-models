@@ -1,0 +1,7 @@
+.noDataMessage{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    color: #6d7380;
+}

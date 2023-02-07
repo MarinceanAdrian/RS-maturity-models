@@ -1,0 +1,80 @@
+.container {
+   width: 100%;
+}
+
+.header, .share > div {
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    gap: 4rem;
+    padding-bottom: 2rem;
+}
+
+.share > div {
+    justify-content: space-between;
+    padding-bottom: .3rem;
+}
+
+.switch {
+    animation: pulse 2s infinite;
+}
+
+.share button {
+    padding: .5rem 1.7rem;
+    transition: all .1s linear;
+}
+
+.share button:hover {
+    box-shadow: var(--loginBtnHover);
+}
+
+.share-input {
+    background: #d9d9d9;
+    padding: .50rem;
+    border-radius: .55rem;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: .2rem;
+}
+
+.share-input:focus {
+    outline: 1px solid #adbbe8;
+}
+
+.copied {
+    color: var(--mainBlue);
+    font-size: .9rem;
+    display: flex;
+    gap: .2rem;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+@-webkit-keyframes pulse {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 rgba(44, 84, 204, 0.4);
+    }
+    70% {
+        -webkit-box-shadow: 0 0 0 10px rgba(44, 84, 204, 0.4);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(44, 84, 204, 0.4);
+    }
+  }
+  @keyframes pulse {
+    0% {
+      -moz-box-shadow: 0 0 0 0 rgba(44, 84, 204, 0.4);
+      box-shadow: 0 0 0 0 rgba(44, 84, 204, 0.4);
+    }
+    70% {
+        -moz-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+        box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+        box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+    }
+  }

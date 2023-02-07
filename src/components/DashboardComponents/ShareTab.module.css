@@ -1,0 +1,12 @@
+.share-tab__container {
+    margin: 3.2rem auto;
+    display: grid;
+    place-items: center;
+    grid-template-areas: 
+    'a a'
+    'b c';
+    grid-template-columns: 22rem 1fr;
+    grid-template-rows: 13rem;
+    row-gap: 2rem;
+    column-gap: 8rem;
+}

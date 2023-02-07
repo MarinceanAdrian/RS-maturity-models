@@ -1,0 +1,15 @@
+.survey__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .2rem 0.8rem;
+    color: var(--mainBlue);
+  }
+  
+  .survey__header h3 {
+    letter-spacing: 0.9px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 250px;
+    white-space: nowrap;
+  }

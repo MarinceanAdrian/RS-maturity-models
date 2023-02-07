@@ -1,0 +1,27 @@
+.popup-modal {
+  position: absolute;
+  top: .55rem;
+  left: 50%;
+  transform: translate(-50%, -200%);
+  width: 15rem;
+  border-radius: var(--radius);
+  padding: 0.55rem;
+  background: #ced5f4;
+  color: var(--mainBlue);
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.popup-modal.show {
+  animation: show .3s linear forwards;
+}
+
+@keyframes show {
+  0% {
+    transform: translate(-50%, -200%);
+  }
+
+  100% {
+    transform: translate(-50%, .55rem);
+  }
+}
