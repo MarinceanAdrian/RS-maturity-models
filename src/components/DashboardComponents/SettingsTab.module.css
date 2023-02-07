@@ -1,0 +1,6 @@
+.settings__container {
+    margin: 3.2rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}

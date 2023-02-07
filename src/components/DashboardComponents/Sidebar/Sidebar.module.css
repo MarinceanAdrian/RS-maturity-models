@@ -1,0 +1,88 @@
+/* Mobile */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transform: translateX(-100%);
+  background: var(--dsGrayBg);
+  color: var(--dsBlackClr);
+  width: 72vw;
+  max-width: 17rem;
+  transition: all 0.3s linear;
+  z-index: 30;
+}
+.open {
+  transform: translateX(0);
+}
+@media (width > 700px) {
+  .sidebar {
+    width: 17rem;
+    background: var(--dsGrayBg);
+    height: 100vh;
+    transform: translateX(0);
+    z-index: 24;
+  }
+}
+
+.sidebar div:first-child {
+  display: flex;
+  gap: .1rem;
+  align-items: center;
+}
+
+.sidebar div:first-child {
+  padding: 1rem 1rem 1.7rem 1rem;
+}
+
+.sidebar h2 {
+  animation: landing 0.5s forwards;
+  font-size: 1.3rem;
+  letter-spacing: .8px;
+  align-self: center;
+}
+
+@media (width > 700px) {
+  .sidebar h2 {
+    animation: landing 0.5s forwards;
+  }
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+.sidebar button {
+  position: absolute;
+  width: 80%;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--mainBlue);
+  background-color: transparent;
+  border: 1px solid var(--grayText);
+  font-weight: bold;
+}
+
+@keyframes landing {
+  0% {
+    opacity: 0.3;
+  }
+
+  25% {
+    opacity: 0.5;
+  }
+
+  50% {
+    opacity: 0.7;
+  }
+
+  75% {
+    opacity: 0.9;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

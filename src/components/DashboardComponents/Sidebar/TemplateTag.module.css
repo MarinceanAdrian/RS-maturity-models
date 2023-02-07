@@ -1,0 +1,35 @@
+.sidebar__template-tags__tag {
+  width: 100%;
+  padding: 0.2rem 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.sidebar__template-tags__tag:hover {
+  background: #d8def0;
+}
+
+.sidebar__template-tags__tag.active {
+  background: #375bd2;
+  color: white;
+}
+
+.sidebar__template-tags__tag:hover span {
+  background: #bdc2d4;
+}
+
+.sidebar__template-tags__tag.active span {
+  background: #f2f3f5;
+}
+
+.sidebar__template-tags__tag span {
+  background: #d8def0;
+  border-radius: 100%;
+  padding: 0.2rem 0.5rem;
+  color: #7b7f91;
+  transition: var(--transition);
+}

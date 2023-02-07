@@ -1,0 +1,20 @@
+.noDataMessage {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  color: #6d7380;
+}
+
+#surveyVisPanel .sa-commercial {
+  display: none;
+}
+
+#surveyVisPanel .tabulator-col-content .sa-table__action-container .sa-table__drag-button use {
+    fill: var(--mainBlue);
+}
+
+#surveyVisPanel  .tabulator-col-content .sa-table__action-container .sa-table__filter:focus, .sa-table__global-filter.sa-table__header-extension:focus {
+  border-color: var(--mainBlue);
+  outline: none;
+}

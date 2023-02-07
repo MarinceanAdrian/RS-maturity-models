@@ -1,0 +1,21 @@
+.survey-blueprint {
+    background: var(--dsGrayBg);
+    width: 65vw;
+    max-width: 14rem;
+    border-radius: 1rem;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s linear;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  .survey-blueprint img {
+   width: 100%;
+  }
+  
+  @media (width > 580px) {
+    .survey-blueprint:hover {
+      transform: scale(1.025);
+      box-shadow: 0 2px 7px rgba(0, 0, 0, 0.4);
+    }
+  }

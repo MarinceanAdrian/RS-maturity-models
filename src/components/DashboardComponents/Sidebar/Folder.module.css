@@ -1,0 +1,70 @@
+.folder-item {
+  display: flex;
+  gap: 1rem;
+  cursor: pointer;
+  padding: 1rem 1rem 1rem 0.5rem;
+  transition: all 0.3s linear;
+  border-radius: 0.4rem;
+  overflow: hidden;
+  align-items: center;
+  margin-bottom: .7rem;
+}
+
+.folder-item:hover {
+  background: var(--dsFolderHover);
+}
+
+.folder-item__name {
+  flex: 1;
+}
+
+.selected {
+  background-color: var(--dsActiveFolderBg);
+}
+
+.folder-item.selected:hover {
+  background-color: var(--dsActiveFolderBg);
+}
+
+.folder-item__trash {
+  transform: translateX(1000%);
+  transition: all 0.2s ease-in-out;
+  pointer-events: none;
+}
+
+.folder-item:hover .folder-item__trash {
+  visibility: visible;
+  color: #6e6e6e;
+  transform: translateX(0);
+  pointer-events: all;
+}
+
+.folder-item:hover .folder-item__trash:hover {
+  color: rgb(240, 74, 74);
+}
+
+.new-folder {
+  padding: 0.4rem 0.4rem 0.4rem 0.5rem;
+  border: 2px solid #91a4e3;
+  gap: 0.2rem;
+}
+
+.new-folder:hover {
+  background: transparent;
+}
+
+.new-folder .folder-icon {
+  color: #91a4e3;
+  font-size: 1.1rem;
+}
+
+.new-folder:hover .folder-item__trash {
+  color: #91a4e3;
+}
+
+.new-folder__form input {
+  background: transparent;
+  outline: none;
+  padding: 0.4rem;
+  color: #91a4e3;
+}

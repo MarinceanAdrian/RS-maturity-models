@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&family=Roboto:wght@300;400;500;700&display=swap");
+
+:root {
+  --transition: all 0.3s linear;
+  --mainBlue: #375bd2;
+  --secondaryColor: #f5f7fd;
+  --btnHover: #1d3891;
+  --white: #f5f5f5;
+  --radius: 4px;
+  --grayBg: #f7f7f7;
+  --grayText: #6d7380;
+  --cursor: pointer;
+  --spacing: 0.95px;
+  --loginBtnHover: 0 -1px 0 rgba(0, 0, 0, 0.04), 0 2px 4px rgba(0, 0, 0, 0.25);
+
+  /* Dashboard  */
+  --dsGrayBg: #f2f3f5;
+  --dsBlackClr: #3f4254;
+  --dsblueClr: #728bdd;
+  --dsActiveFolderBg: #adbbe8;
+  --dsFolderHover: #cccdd2;
+
+  /* Media queries */
+  --startMobile: 560px;
+  --startDesktop: 700px;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+  /* overflow: hidden; */
+}
+
+input,
+button {
+  font: inherit;
+  font-family: inherit;
+  border: none;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+input {
+  width: 100%;
+}
+
+input::placeholder {
+  color: #ccc;
+}
+
+img {
+  display: inline-block;
+  height: 100%;
+  object-fit: cover;
+}
+
+button {
+  background: var(--mainBlue);
+  color: var(--white);
+  border-radius: var(--radius);
+  padding: 0.5rem 1rem;
+  font-family: inherit;
+  cursor: var(--cursor);
+}
+
+
+
+@media (width > 580px) {
+  .App {
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+/* new account paragraph */
+.new__account,
+.forgot__passowrd {
+  color: #6d7380;
+  cursor: var(--cursor);
+  text-align: center;
+  transition: var(--transition);
+}
+
+.new__account:hover,
+.forgot__passowrd:hover {
+  color: black;
+}
+
+.new__account {
+  margin-bottom: 0.7rem;
+}
